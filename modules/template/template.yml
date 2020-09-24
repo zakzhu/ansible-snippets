@@ -1,0 +1,9 @@
+- name: template a file to DEST
+  template:
+    src:
+    dest:
+    owner:
+    group:
+    mode: "0644"
+    #validate:
+    #backup: yes

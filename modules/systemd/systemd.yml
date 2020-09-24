@@ -1,0 +1,7 @@
+- name:
+  systemd:
+    name:
+    # Choices: reloaded, restarted, started, stopped
+    state:
+    #enabled:
+    daemon_reload: yes

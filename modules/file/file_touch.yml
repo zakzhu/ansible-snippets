@@ -1,0 +1,9 @@
+- name:
+  file:
+    path:
+    state: touch
+    owner:
+    group:
+    mode: "0644"
+    access_time: preserve
+    modification_time: preserve

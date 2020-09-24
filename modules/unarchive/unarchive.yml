@@ -1,0 +1,10 @@
+- name: extract SRC into DEST
+  unarchive:
+    src:
+    dest:
+    #owner:
+    #group:
+    #mode:
+    # If the specified absolute path (file or directory) already
+    # exists, this step will *not* be run.
+    creates: DEST/src

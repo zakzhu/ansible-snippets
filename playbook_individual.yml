@@ -1,0 +1,16 @@
+---
+- name:
+  hosts: localhost
+  remote_user:
+  gather_facts: yes
+  vars:
+
+  force_handlers: no
+  pre_tasks:
+
+  tasks:
+
+  post_tasks:
+
+  handlers:
+    #- name:

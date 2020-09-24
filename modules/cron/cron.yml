@@ -1,0 +1,11 @@
+- name:
+  cron:
+    name:
+    minute: "*"
+    hour: "*"
+    day: "*"
+    month: "*"
+    weekday: "*"
+    job:
+    user: root
+    state: present

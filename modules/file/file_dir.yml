@@ -1,0 +1,7 @@
+- name: create PATH directory
+  file:
+    path:
+    state: directory
+    #owner:
+    #group:
+    mode: "0755"

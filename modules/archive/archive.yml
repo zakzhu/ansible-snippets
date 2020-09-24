@@ -1,0 +1,12 @@
+- name:
+  archive:
+    path:
+    dest:
+    #exclude_path:
+    # Choices: bz2, gz, tar, xz, zip
+    format: gz
+    #owner:
+    #group:
+    #mode:
+    #force_archive: yes
+    remove: no

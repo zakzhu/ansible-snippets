@@ -1,0 +1,8 @@
+- name:
+  yum:
+    name: "{{ item }}"
+    state: present
+    disable_gpg_check: yes
+    disable_plugin: fastestmirror
+    #allow_downgrade: yes
+  loop: "{{ packages }}"
