@@ -4,4 +4,4 @@
     # Choices: reloaded, restarted, started, stopped
     state:
     #enabled:
-    daemon_reload: yes
+    #daemon_reload: yes
