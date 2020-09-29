@@ -1,0 +1,4 @@
+- name: create a xfs filesystem on DEV
+  filesystem:
+    fstype: xfs
+    dev:
