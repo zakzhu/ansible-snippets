@@ -3,7 +3,8 @@
     path:
     state: present
     insertafter: EOF
-    line:
+    line: |-
+
     #backup: yes
 
     # The validation command to run before copying into place.
