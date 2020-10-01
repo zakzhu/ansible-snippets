@@ -1,4 +1,4 @@
-- name: extract SRC into DEST
+- name: <> extract SRC into DEST
   unarchive:
     src:
     dest:

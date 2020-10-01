@@ -1,4 +1,4 @@
-- name:
+- name: <>
   get_url:
     # url=(http|https|ftp)://[user[:pass]]@host.domain[:port]/path
     url:

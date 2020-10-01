@@ -1,4 +1,4 @@
-- name:
+- name: <>
   lineinfile:
     path:
     state: present

@@ -1,4 +1,4 @@
-- name: template a file to DEST
+- name: <> template a file to DEST
   template:
     src:
     dest:
