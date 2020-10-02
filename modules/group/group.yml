@@ -1,4 +1,4 @@
-- name: <> create a new group
+- name: <> create 
   group:
     name:
     gid:
