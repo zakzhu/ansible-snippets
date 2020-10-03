@@ -1,0 +1,12 @@
+- name: <>
+  lineinfile:
+    path:
+    state: present
+    insertafter: EOF
+    line: |-
+
+    # The validation command to run before copying into place.
+    # The path to the file to validate is passed in via '%s'
+    # which must be present as in the examples below.
+    #validate:
+    #backup: yes

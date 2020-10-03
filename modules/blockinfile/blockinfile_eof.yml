@@ -1,13 +1,15 @@
 - name: <>
-  lineinfile:
+  blockinfile:
     path:
-    state: present
     insertafter: EOF
-    line: |-
+    marker: "{mark}"
+    marker_begin:
+    block: |
 
-    #backup: yes
-
+    state: present
+    marker_end:
     # The validation command to run before copying into place.
     # The path to the file to validate is passed in via '%s'
     # which must be present as in the examples below.
     #validate:
+    #backup: yes
