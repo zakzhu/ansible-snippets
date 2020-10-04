@@ -1,4 +1,4 @@
-- name: <>
+- name: <> reload | restarted | started | stopped service NAME
   systemd:
     name:
     # Choices: reloaded, restarted, started, stopped
