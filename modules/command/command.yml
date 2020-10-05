@@ -1,5 +1,7 @@
 - name: <>
   command:
+  #become: yes
+  #become_user:
     cmd:
     #chdir:
     # A filename or (since 2.0) glob pattern.
