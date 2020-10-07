@@ -1,0 +1,14 @@
+- name: <>
+  shell:
+  #become: yes
+  #become_method: su
+  #become_user:
+  #become_flags: "-s /bin/sh"
+  args:
+    cmd:
+    #chdir:
+    # when filename already exists, this step *won't* be run.
+    #creates:
+
+    # when filename already exists, this step *will* be run.
+    #remove:
