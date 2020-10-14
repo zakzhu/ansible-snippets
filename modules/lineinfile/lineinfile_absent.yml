@@ -1,0 +1,5 @@
+- name: <> make sure group wheel is not in the sudoers configuration
+  lineinfile:
+    path: /etc/sudoers
+    state: absent
+    regexp: "^%wheel"
