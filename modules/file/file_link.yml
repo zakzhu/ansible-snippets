@@ -1,0 +1,8 @@
+- name: <> create a symbolic link to DEST
+  file:
+    src: /file/to/link/to
+    dest: /path/to/symlink
+    #owner:
+    #group:
+    mode: "0644"
+    state: link
