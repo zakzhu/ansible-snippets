@@ -1,0 +1,6 @@
+- name: <>
+  lineinfile:
+    path:
+    regexp:
+    line:
+    state: present
