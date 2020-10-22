@@ -1,4 +1,4 @@
-- name:
+- name: <>
   yum:
     name: "{{ item }}"
     state: present
