@@ -1,4 +1,4 @@
-- name: <> touch PATH file
+- name: <> touch file PATH
   file:
     path:
     state: touch

@@ -1,4 +1,4 @@
-- name: <> create PATH directory
+- name: <> create directory PATH
   file:
     path:
     state: directory
