@@ -28,6 +28,7 @@
     # Size is not evaluated for directories.
     #size:
 
+    # Choices: any, directory, file, link
     file_type: file
     recurse: no
     #excludes:
