@@ -30,6 +30,7 @@
 
     # Choices: any, directory, file, link
     file_type: file
+    #depth:
     recurse: no
     #excludes:
     #  -
