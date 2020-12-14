@@ -4,5 +4,5 @@
     dest: /path/to/symlink
     owner:
     group:
-    #mode:
+    # Choices: link, hard
     state: link
