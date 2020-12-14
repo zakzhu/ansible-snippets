@@ -1,6 +1,7 @@
 - name: <> extract SRC into DEST
   unarchive:
     src:
+    # Remote absolute path where the archive should be unpacked.
     dest:
     #owner:
     #group:
