@@ -8,5 +8,5 @@
     #mode:
     # If the specified absolute path (file or directory) already
     # exists, this step will *not* be run.
-    creates:
+    #creates:
     #list_files: yes
