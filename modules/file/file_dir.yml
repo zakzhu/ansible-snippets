@@ -5,3 +5,4 @@
     #owner:
     #group:
     mode: "0755"
+    #recurse: yes
