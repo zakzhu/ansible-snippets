@@ -1,7 +1,0 @@
-- name: <>
-  cron:
-    name:
-    special_time: reboot
-    job:
-    user: root
-    state: present
