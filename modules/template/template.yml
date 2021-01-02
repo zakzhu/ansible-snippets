@@ -5,5 +5,7 @@
     owner:
     group:
     mode: "0644"
-    #validate:
     #backup: yes
+    # The validation command to run before copying into place.
+    # E.g. `validate: /usr/sbin/visudo -csf %s`
+    #validate:
