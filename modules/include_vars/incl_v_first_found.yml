@@ -8,7 +8,7 @@
       files:
         - "{{ os_version }}.yml"
         - "{{ os_distro }}.yml"
-        #- "{{ os_family }}.yml"
-        #- default.yml
+        - "{{ os_family }}.yml"
+        - default.yml
       paths:
         - "vars"
